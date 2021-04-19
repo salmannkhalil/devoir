@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    background-image: url(../PHOTOS/sey1.jpg);
+   background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}     
+
+.entete{
+    width: 100%;
+    background-color:#0004;
+    color: black;
+}
+.head{
+    line-height: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.entete ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left:140px;
+}
+.entete .head .A{
+    display: inline-block;
+    position: relative;
+    transition: 0.7s all;
+
+   
+}
+.entete .head .A a{
+    padding:12px 24px;
+    text-decoration:none;
+    color:white;
+    display: block;
+}
+.A:hover{
+    background-color:#232527;
+     transform: skewX(20deg);
+     animation-direction: alternate;
+     animation:skew 1s infinite;
+}
+#acc{
+    background-color:#d3c7a6;
+}
+.menu{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}    
+.menu h1{
+    color: white;
+    font-size:30px;
+    font-family:Palatino, URW Palladio L, serif;
+}
+.logo2 img{
+    height: 30px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+  transform: translate(-50%,-50%);
+  height:200px;
+}
